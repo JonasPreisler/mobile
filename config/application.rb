@@ -24,15 +24,6 @@ module Mobile
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     
-    config.middleware.insert_before 0, Rack::Cors do
-      allow do
-        origins "*"
     
-        resource "*",
-          headers: :any,
-          methods: [:get, :post, :put, :patch, :delete, :options, :head]
-      end
-    end
-
   end
 end
