@@ -81,7 +81,7 @@ GEM
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
     io-console (0.5.11)
-    io-wait (0.2.1)
+    io-wait (0.2.0)
     irb (1.4.1)
       reline (>= 0.3.0)
     loofah (2.15.0)
@@ -168,6 +168,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  io-wait (= 0.2.0)
   pg
   puma (~> 5.0)
   rack-cors
