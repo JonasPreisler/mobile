@@ -168,7 +168,6 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
-  io-wait (= 0.2.1)
   pg
   puma (~> 5.0)
   rack-cors
